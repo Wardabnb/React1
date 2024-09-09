@@ -4,7 +4,7 @@ import product from "../product.js";
 export default function Image() {
   return (
     <div>
-      <img src={product.imageUrl}></img>
+      <img src={product.imageUrl} alt="Product" />
     </div>
   );
 }

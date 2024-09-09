@@ -1,13 +1,13 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Name from "./components/name.js";
-import Description from "./components/image.js";
-import Price from "./components/description.js";
-import Image from "./components/price.js";
+import Name from "./components/Name.js";
+import Description from "./components/Description.js";
+import Price from "./components/Price.js";
+import Image from "./components/Image.js";
 
 function App() {
-  const firstName = "warda"; // Change this to your first name
+  const firstName = "warda"; // Use your name here
 
   return (
     <Container className="mt-1 ml-1">
